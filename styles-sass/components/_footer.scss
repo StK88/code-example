@@ -1,0 +1,17 @@
+footer {
+  background-color: #49347b;
+
+  .container {
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.footer__copyright {
+  color: #9083d0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+}

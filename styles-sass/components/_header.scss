@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .container {
+    height: 112px;
+    padding: 0 42px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.header__main {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: 108px;
+
+  a {
+    font-size: 20px;
+    color: white;
+    margin: 0 22px;
+    transition: color .3s;
+
+    &:hover {
+      color: $green;
+    }
+  }
+}

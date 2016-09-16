@@ -1,0 +1,319 @@
+
+@media (max-width: $screen-lg) {
+
+  .advantages {
+
+    .container:after {
+      display: none;
+    }
+
+    h2 span {
+      color: $purple;
+    }
+  }
+
+  .advantage {
+    justify-content: flex-start;
+  }
+
+  .advantages__side {
+    padding-right: 20px;
+
+    .advantage {
+      order: 2;
+
+      &:last-child {
+        padding-left: 0;
+      }
+    }
+
+    .advantage--highlight {
+      order: 1;
+      margin-top: 90px;
+      margin-bottom: 124px;
+      padding-left: 136px;
+
+      &:after {
+        width: 108px;
+      }
+    }
+  }
+
+  .advantage--main {
+
+    .advantage__info {
+      order: 2;
+
+      &:before {
+        top: -247px;
+      }
+
+      &:after {
+        top: -225px;
+      }
+    }
+
+    p {
+      color: $purple;
+    }
+  }
+
+  footer,
+  .order__wrapper,
+  .hero__body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .order__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .order__promo {
+    order: 1;
+    padding-left: 0;
+  }
+
+  .order__action {
+    min-width: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0 1 100%;
+    order: 3;
+  }
+
+  .order__form {
+    min-width: 200px;
+    padding-left: 0;
+  }
+
+  .countdown {
+    margin-right: 0;
+    padding-right: 64px;
+  }
+
+  .js-carousel--bg {
+
+    .carousel__block {
+      justify-content: center;
+    }
+
+    .features__box {
+      margin: 0 15px 30px;
+    }
+  }
+}
+
+@media (max-width: $screen-md) {
+
+  .advantages {
+
+    h2 {
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .advantages__wrapper {
+    flex-direction: column;
+    padding: 0 20px 20px;
+  }
+
+  .advantages__side {
+    margin-left: 0;
+
+    .advantage--highlight {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      max-width: none;
+    }
+  }
+
+  .advantage__photo {
+    display: none;
+  }
+
+  .advantage--main .advantage__info,
+  .advantage--highlight {
+
+    &:after,
+    &:before {
+      display: none;
+    }
+  }
+
+  .advantage--main {
+    padding: 0;
+
+    .advantage__info {
+      margin-left: 0;
+      max-width: none;
+    }
+  }
+
+  .features,
+  .testimonials,
+  .advantages,
+  .order {
+
+    h2 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .box__heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .features__heading h4 {
+    height: auto;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .hero__body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-left: 20px;
+  }
+
+  .order__wrapper,
+  .order__action {
+    flex-direction: column;
+  }
+
+  .order__wrapper {
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__info {
+    margin: -20px 0 0 0;
+    padding: 30px 108px 20px;
+  }
+
+  .js-carousel-block--purple .js-carousel-pagination {
+    margin-top: 0;
+  }
+
+  .testimonial {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: $screen-sm) {
+
+  .countdown__info {
+    text-align: center;
+  }
+
+  .js-carousel {
+    padding: 0 20px;
+  }
+
+  .js-carousel__arrow-next,
+  .js-carousel__arrow-prev {
+    display: none;
+  }
+
+  .testimonial__info {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 0;
+
+    blockquote {
+      &:after,
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  .js-carousel {
+    padding: 0 40px;
+  }
+
+  .header__main,
+  header .container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__logo {
+    margin: 20px 0;
+  }
+
+  nav {
+    margin-bottom: 40px;
+
+    a {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+
+  .countdown {
+    padding: 14px;
+  }
+
+  .timer {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .hero__list li:before {
+    margin-right: 10px;
+  }
+
+  footer {
+
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+
+  .foooter__logo {
+    margin: 10px 0;
+  }
+  .action__heading {
+    margin-left: 30px;
+  }
+
+  .testimonial__photo {
+    width: 160px;
+    height: 160px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  transition: all .3s;
+}
+
+.btn--transparent {
+  font-size: 20px;
+  height: 40px;
+  line-height: 36px;
+  border-radius: 20px;
+  padding: 0 12px;
+  color: $green;
+  border: 2px solid $green;
+
+  &:hover {
+    color: $purple;
+    background-color: $green;
+    border-color: $green;
+  }
+}
+
+.btn--action {
+  padding: 0 52px;
+  font-size: 18px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 44px;
+  border: 2px solid white;
+  background-color: $green;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-size: 18px;
+  color: #3f277d;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
+.btn--form {
+  display: block;
+  width: 100%;
+  border-radius: 36px;
+  height: 72px;
+  line-height: 66px;
+  border: 3px solid #94d606;
+  background-color: $green;
+  color: #3f277d;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #94d606;
+  }
+}
